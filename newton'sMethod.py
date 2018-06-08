@@ -2,7 +2,7 @@
 #newton's method
 
 def newtonMethod(x0):
-    f = '0*(x)**4 + 2*(x)**3 + 4*(x)**2 + (x)**1 + 3'
+    f = '0*(x)**4 + (.5*x)**3 + 2*(x)**2 + (x)**1 + 3'
     h = 0.00001
     xvalues = []
     for i in range(0,40):
