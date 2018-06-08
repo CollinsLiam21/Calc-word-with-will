@@ -5,7 +5,7 @@ def newtonMethod(x0):
     f = '0*(x)**4 + 2*(x)**3 + 4*(x)**2 + (x)**1 + 3'
     h = 0.00001
     xvalues = []
-    for i in range(0,80):
+    for i in range(0,40):
         fn = eval(f.replace('x',str(x0)))
         defderiv = x0 + h
         fderiv = (eval(f.replace('x',str(defderiv)))-eval(f.replace('x',str(x0))))/h
