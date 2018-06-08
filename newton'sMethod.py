@@ -8,6 +8,7 @@ def newtonMethod(x0):
         fn = f.replace('x',str(x0))
         defderiv = x0 + h
         fderiv = (eval(f.replace('x',str(defderiv)))-eval(f.replace('x',str(x0))))/h
+        x0 = fderiv
     
     
     #xn = x0 - eval(f)/
