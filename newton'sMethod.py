@@ -16,4 +16,4 @@ def newtonMethod(x0):
     else:
         print('No Zero')
     
-newtonMethod(5)
+newtonMethod(1)
