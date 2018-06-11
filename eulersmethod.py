@@ -12,4 +12,4 @@ def euler(x,y,finalx,n):
         y += dy
         print(x,y)
     
-euler(1,2,3,4)
+euler(2,0,3,5)
