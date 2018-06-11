@@ -8,8 +8,9 @@ def euler(x,y,finalx,n):
         fderiv.replace('y',str(y))
         fderiv.replace('x',str(x))
         dy = eval(fderiv)*dx
+        print(dy)
         x += dx
         y += dy
-        print(x,y)
+        print('(',x,',',y,')')
     
 euler(2,0,3,5)
