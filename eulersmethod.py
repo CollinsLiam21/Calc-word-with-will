@@ -11,6 +11,6 @@ def euler(x,y,finalx,n):
         print(dy)
         x += dx
         y += dy
-        print('(',x,',',y,')')
+        print('(',round(x,4),',',round(y,4),')')
     
 euler(2,0,3,5)
