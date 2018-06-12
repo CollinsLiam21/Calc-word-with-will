@@ -19,7 +19,7 @@ text = TextAsset('Literature',fill=green, style='bold 40pt Times') #text, other 
 X = 10
 Y = 5
 
-f = '(x)**2 + 10'
+f = str(input('f(x) = ?'))
 for i in range(-100,100):
     Sprite(blackCircle, (250+i*X,250-Y*eval(f.replace('x',str(i)))))
 
