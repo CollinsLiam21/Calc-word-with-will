@@ -23,7 +23,7 @@ Sprite(blackVertLine, (255,0))
 X = 10
 Y = 5
 
-f = str(input('f(x) = ?'))
+f = str(input('f(x) = ? '))
 for i in range(-100,100):
     Sprite(blackCircle, (250+i*X,250-Y*eval(f.replace('x',str(i)))))
 
