@@ -17,7 +17,7 @@ blackLine = LineAsset(600,0,blackOutline)
 blackVertLine = LineAsset(0,500,blackOutline)
 text = TextAsset('Literature',fill=green, style='bold 40pt Times') 
 
-Sprite(blackLine, (0,250))
+Sprite(blackLine, (0,255))
 Sprite(blackVertLine, (255,0))
 
 X = 10
