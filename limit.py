@@ -16,10 +16,10 @@ blackLine = LineAsset(600,0,blackOutline) #x_endpoint, y_endpoint, lineStyle
 blackVertLine = LineAsset(0,500,blackOutline)
 text = TextAsset('Literature',fill=green, style='bold 40pt Times') #text, other options
 
-X = 5
+X = 10
 Y = 5
 
-f = '(x)**2 + 20'
+f = '(x)**2 + 10'
 for i in range(-100,100):
     Sprite(blackCircle, (250+i*X,250-Y*eval(f.replace('x',str(i)))))
 
