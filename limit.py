@@ -21,7 +21,7 @@ Sprite(blackLine, (0,255))
 Sprite(blackVertLine, (255,0))
 
 X = 10
-Y = 5
+Y = 10
 
 f = str(input('f(x) = ? '))
 for i in range(-100,100):
