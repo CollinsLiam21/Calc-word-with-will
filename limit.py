@@ -2,6 +2,7 @@
 #limit.py
 
 from ggame import *
+from math import sin
 
 #Graphics
 red = Color(0xFF0000,1)
@@ -25,8 +26,6 @@ Y = 5
 f = str(input('f(x) = ?'))
 for i in range(-100,100):
     Sprite(blackCircle, (250+i*X,250-Y*eval(f.replace('x',str(i)))))
-
-
 
 
 App().run()
