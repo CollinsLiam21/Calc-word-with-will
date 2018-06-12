@@ -20,8 +20,9 @@ X = 5
 Y = 5
 
 f = '(x)**2 + 5'
-for i in range(-5,5):
-    Sprite(blackCircle, (250+i*X,250-eval(f.replace('x',str(i*X)))))
+for i in range(-100,100):
+    Sprite(blackCircle, (250+i*X,250-eval(f.replace('x',str(i)))))
+    print(eval(f.replace('x',str(i*X))))
 
 Sprite(blackLine, (0,250))
 Sprite(blackVertLine, (255,0))
