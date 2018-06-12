@@ -2,7 +2,7 @@
 #limit.py
 
 from ggame import *
-from math import sin
+from math import sin, cos, tan
 
 #Graphics
 red = Color(0xFF0000,1)
