@@ -19,10 +19,9 @@ text = TextAsset('Literature',fill=green, style='bold 40pt Times') #text, other 
 X = 5
 Y = 5
 
-f = '(x)**2 + 5'
+f = '(x)**2 + 20'
 for i in range(-100,100):
-    Sprite(blackCircle, (250+i*X,250-eval(f.replace('x',str(i)))))
-    print(eval(f.replace('x',str(i*X))))
+    Sprite(blackCircle, (250+i*X,250-Y*eval(f.replace('x',str(i)))))
 
 Sprite(blackLine, (0,250))
 Sprite(blackVertLine, (255,0))
