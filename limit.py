@@ -11,9 +11,7 @@ black = Color(0x000000,1)
 X = 5
 Y = 5
 
-f = '2*(x)**2 + 2*(x)**1'
-for i in range(0,100):
-    Sprite(blackCircle, (i*X,500-eval(f.replace('x',str(i*X)))))
+
 
 blackOutline = LineStyle(1,black)
 
@@ -22,6 +20,10 @@ blackCircle = CircleAsset(5,blackOutline,black) #radius, outline, fill
 blackLine = LineAsset(600,0,blackOutline) #x_endpoint, y_endpoint, lineStyle
 blackVertLine = LineAsset(0,500,blackOutline)
 text = TextAsset('Literature',fill=green, style='bold 40pt Times') #text, other options
+
+f = '2*(x)**2 + 2*(x)**1'
+for i in range(0,100):
+    Sprite(blackCircle, (i*X,500-eval(f.replace('x',str(i*X)))))
 
 Sprite(blackLine, (0,500))
 Sprite(blackVertLine)
