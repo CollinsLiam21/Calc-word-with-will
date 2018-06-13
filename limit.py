@@ -23,7 +23,7 @@ Sprite(blackLine, (0,255))
 Sprite(blackVertLine, (355,0))
 
 X = 20
-Y = 10
+Y = 20
 
 for i in range(-16,31):
     Sprite(blackXValues, (355+i*X,255))
@@ -32,7 +32,7 @@ for i in range(-16,31):
 
 for i in range(-30,30):
     Sprite(blackYValues, (350, 255+i*Y))
-    text = TextAsset(str(i),fill=black, style='bold 8pt Times')
+    text = TextAsset(str(-i),fill=black, style='bold 8pt Times')
     Sprite(text, (370,255+i*Y))
 
 f = str(input('f(x) = '))
