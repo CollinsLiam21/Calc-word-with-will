@@ -21,11 +21,13 @@ blackPlaceHolder = LineAsset(0,15,blackOutline)
 Sprite(blackLine, (0,255))
 Sprite(blackVertLine, (355,0))
 
-X = 10
+X = 20
 Y = 10
 
-for i in range(-35,100):
-    Sprite(blackPlaceHolder, (i*X,255))
+for i in range(-20,20):
+    Sprite(blackPlaceHolder, (355+i*X,255))
+    text = TextAsset(str(i),fill=green, style='bold 40pt Times')
+    Sprite(text, (355+i*x,255))
 
 f = str(input('f(x) = ? '))
 for i in range(-100,100):
