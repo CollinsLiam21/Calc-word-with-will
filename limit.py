@@ -12,7 +12,7 @@ black = Color(0x000000,1)
 
 blackOutline = LineStyle(1,black)
 
-blackCircle = CircleAsset(5,blackOutline,black) 
+blackCircle = CircleAsset(5,blackOutline,black)
 blackLine = LineAsset(1000,0,blackOutline) 
 blackVertLine = LineAsset(0,600,blackOutline)
 text = TextAsset('Literature',fill=green, style='bold 40pt Times') 
