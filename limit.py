@@ -29,7 +29,7 @@ for i in range(-16,31):
     text = TextAsset(str(i),fill=black, style='bold 8pt Times')
     Sprite(text, (355+i*X,270))
 
-f = str(input('f(x) = ? '))
+f = str(input('f(x) = '))
 for i in range(-100,100):
     Sprite(blackCircle, (350+i*X,250-Y*eval(f.replace('x',str(i)))))
 
