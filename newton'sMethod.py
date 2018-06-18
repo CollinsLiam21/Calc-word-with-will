@@ -4,8 +4,7 @@
 from math import sin, cos, tan
 
 def newtonMethod(x0):
-    #f = '0*(x)**4 + 0*(.5*x)**3 + 1*(x)**2 + 0*(x)**1 - 2'
-    f = 'sin(x)'
+    f = '0*(x)**4 + 0*(.5*x)**3 + 1*(x)**2 + 0*(x)**1 - 1'
     h = 0.00001
     xvalues = []
     for i in range(0,40):
