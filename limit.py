@@ -1,5 +1,5 @@
 #Liam Collins
-#limit.py
+#graphing functions
 
 from ggame import *
 from math import sin, cos, tan
@@ -35,7 +35,8 @@ for i in range(-30,30):
     text = TextAsset(str(-i),fill=black, style='bold 8pt Times')
     Sprite(text, (370,255+i*Y))
 
-f = str(input('f(x) = '))
+#user input values
+f = '3*x+(x)**2'
 for i in range(-100,100):
     Sprite(blackCircle, (350+i*X,250-Y*eval(f.replace('x',str(i)))))
 
