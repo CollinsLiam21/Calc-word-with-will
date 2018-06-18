@@ -4,6 +4,7 @@
 def euler(x,y,finalx,n):
     fderiv = '-1*(y) + 2*(x)'
     dx = (finalx - x)/n
+    print('(',round(x,4),',',round(y,4),')')
     for i in range(0,n):
         fderiv.replace('y',str(y))
         fderiv.replace('x',str(x))
@@ -13,4 +14,4 @@ def euler(x,y,finalx,n):
         print('(',round(x,4),',',round(y,4),')')
         
 #user input
-euler(2,3,1.5,10)
+euler(2,3,3,10)
