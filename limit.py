@@ -37,7 +37,7 @@ for i in range(-30,30):
     Sprite(text, (370,255+i*Y))
 
 #user input values
-f = '3*x+(x)**2'
+f = 'cos(x)'
 for i in range(-100,100):
     Sprite(blackCircle, (350+i*X,250-Y*eval(f.replace('x',str(i)))))
 
