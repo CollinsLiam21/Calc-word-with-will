@@ -22,6 +22,7 @@ blackYValues = LineAsset(15,0,blackOutline)
 Sprite(blackLine, (0,255))
 Sprite(blackVertLine, (355,0))
 
+#scale of the x and y axis
 X = 20
 Y = 20
 
